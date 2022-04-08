@@ -30,3 +30,78 @@ html{
     from {opacity: 0;}
     to {opacity: 1;}
   }
+/* --Model--- */
+.model{
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    display:flex;
+}
+.model__overlay{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.4);
+ 
+}
+.model__body{
+    position: relative;
+    margin:auto;
+    background-color: #FFF;
+    z-index: 1;
+    border-radius: 5px;
+}
+/* Model-css */
+.auth-form{
+    width: 500px;
+}
+.auth-form__container{
+    padding:0 32px;
+}
+.auth-form__header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.auth-form__heading{
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: var(--text-color)
+}
+.auth-form__swith-btn{
+    font-size: 1.6rem;
+    color:var(--primary--color);
+font-weight: 400;
+cursor: pointer;
+}
+.auth-form__input{
+    width: 100%;
+    height: 40px;
+    margin-top:16px;
+    padding:0 12px;
+    font-size:1.2rem;
+    border:1px solid #dbdbdb;
+    border-radius: 2px;
+    outline:none;
+}
+.auth-form__input:focus {
+    color: #888;
+}
+.auth-form__aside{
+    margin-top: 18px;
+}
+.auth-form__polycy-text{
+    font-size:1.2rem;
+    line-height:1.8rem;
+    text-align:center;
+    padding: 0 12px;
+}
+.auth-form__polycy-link{
+    text-decoration: none;
+    color: var(--primary--color)
+}
+.auth-form__controls{
+    margin-top:100px
+}

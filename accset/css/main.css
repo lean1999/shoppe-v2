@@ -233,3 +233,16 @@ text-decoration: none;
     top: -25px;
     right: 10px;
 }
+/* BTN */
+.btn{
+    min-width: 142px;
+    height: 36px;
+    border:none;
+    border-radius: 2px;
+    font-size:1.4rem;
+    padding:0;
+}
+.btn.btn-primary{
+    color: var(--white-color);
+    background-color: var(--primary--color);
+}
