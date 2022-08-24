@@ -242,6 +242,7 @@ color:#666;
     align-items: center;
     border-radius: 2px ;
     position: relative;
+    z-index: 1;
 }
 .select-expensive:hover .select-ex-list{
 display: block;

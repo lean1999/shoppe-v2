@@ -330,6 +330,7 @@ text-decoration: none;
     line-height: 1.4rem;
     border-radius: 10px;
     border: 2px solid #EE4D2D;
+    
 }
 .header-cart-icon{
     font-size: 2.4rem;
@@ -346,7 +347,7 @@ text-decoration: none;
     box-shadow:  0 1px 3.125rem rgba(0,0,0,0.2);
     display: none;
     cursor: default;
-    z-index: 1;
+    z-index: 2;
 
 }
 .header-cart-wrap:hover .header-cart-list{
@@ -505,12 +506,13 @@ justify-content: space-between;
     color: var(--text-color);
     padding: 0 16px;
     border-radius:3px;
+   
 }
 .header-seach-select{
     border-left: 1px solid #ccc;
     padding-left: 16px;
     position: relative;
-    z-index: 1;
+    z-index: 2;
 }
 .header-seach-select-label{
     font-size: 1.4rem;
@@ -955,4 +957,88 @@ line-height: 1.2rem;
 }
 .grid__product--pagination{
  margin: 48px 0 32px 0;
+}
+
+/* footer */
+.footer{
+    border-top: 4px solid var(--primary--color);
+    padding-top: 12px;
+    background-color:var(--white-color)
+}
+.footer-heading{
+    font-size: 1.6rem;
+    color:var(--text-color);
+    text-transform: uppercase;
+    
+}
+.footer-list{
+padding-left: 0;
+list-style: none;
+margin-top: 12px;
+}
+.footer-item__link{
+   display: block;
+   text-decoration: none;
+   margin:8px 0;
+   color: #797979;
+}
+.footer-item__link:hover{
+    color:var(--primary--color)
+}
+.footer-item-icon{
+    font-size: 1.6rem !important;
+}
+.footer-downlod{
+    display: flex;
+}
+.footer-download-img{
+    width:80px;
+    object-fit: contain;
+    border:1px solid red
+}
+.footer-download__App{
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+
+}
+.download-link{
+text-decoration: none;
+color:transparent;
+}
+.footer-wrap{
+  
+}
+.footer-download__img{
+    height:20px;
+    margin-left:16px;
+}
+.footer-heading-list{
+    display: flex;
+    justify-content:center;
+    padding: 20px 0;
+}
+.footer-heading-list{
+
+}
+.heading-item{
+list-style: none;
+
+}
+.heading-item-link{
+    text-decoration: none;
+    padding:16px;
+    font-size: 1.4rem;
+     color: #757575;
+}
+.footer-child-mark{
+display:flex;
+padding: 30px 0;
+justify-content:center;
+flex-direction:column;
+align-items: center;
+}
+.mark-img{
+    width: 180px;
+    height: 60px;
 }
